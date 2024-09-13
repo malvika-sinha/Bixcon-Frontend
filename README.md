@@ -1,1 +1,2 @@
-# Bixcon-Frontend
+# Landing-Page
+Landing Page of bixconai

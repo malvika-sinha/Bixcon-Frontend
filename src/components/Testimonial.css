@@ -1,0 +1,110 @@
+#logo {
+    position: relative;
+    border-radius: 75px;
+    width: 79px;
+    top: 38px;
+    left: 11px;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    /* Customize the shadow */
+}
+
+/* For Section1 */
+#Section1 {
+    position: relative;
+    top: -675px;
+    left: 5px;
+    width: 101%;
+    height: 787px;
+}
+
+#social_image {
+    position: relative;
+    width: 39px;
+    top: 434px;
+    left: 32%;
+    margin-bottom: 21px;
+    box-shadow: 0 4px 10px rgb(255 255 255 / 60%);
+    cursor: pointer;
+}
+
+#social_image_twitter {
+    position: relative;
+    width: 39px;
+    top: 434px;
+    left: 32%;
+    margin-bottom: 21px;
+    box-shadow: 0 4px 10px rgb(255 255 255 / 60%);
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.text-3xl {
+    position: relative;
+    left: 56px;
+    top: 79px;
+    font-size: 41px;
+    width: 55%;
+    letter-spacing: 2px;
+    margin-bottom: 156px;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+#the_Test {
+    position: relative;
+    left: 65%;
+    top: -199px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    width: 84%;
+    letter-spacing: -1px;
+    font-style: normal;
+}
+
+
+#close_quote {
+    position: relative;
+    left: 54%;
+    top: -90px;
+}
+
+#start_proj {
+    position: relative;
+    left: 31%;
+    top: -153px;
+}
+
+#button_start {
+    color: #ffffff;
+    background-color: #db1f78;
+    font-size: 19px;
+    font-weight: bold;
+    height: 56px;
+    border-radius: 19px;
+}
+
+.names_test {
+    position: relative;
+    left: 83%;
+    top: -178px;
+}
+
+.animate-moveLeftRight {
+    animation: moveLeftRight 3s ease-in-out infinite;
+  }
+  @keyframes fadeInAfterDelay {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fadeInAfterDelay {
+    animation: fadeInAfterDelay 2s ease-out forwards;
+  }

@@ -1,0 +1,320 @@
+/* src/Bixcon.css */
+
+header {
+    color: #e8a8f3;
+    color: #9528d5;
+    color: #201166;
+    color: #9066a6;
+    color: #3f364e;
+    color: #c7bbdb;
+}
+
+body {
+    background-color: #1a1a2e;
+    /* Dark background */
+    font-family: Inter V, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+    background: linear-gradient(90deg, #79879d, #8ec9b6, #79879d);
+    overflow-x:hidden
+}
+
+h1,
+h2 {
+    color: wheat;
+    /* Light blue color */
+}
+
+.btn-primary {
+    background-color: #00adb5;
+    /* Button color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #007b7f;
+    /* Darker button color on hover */
+}
+
+.MyPage {
+    background: linear-gradient(90deg, #79879d, #8ec9b6, #79879d);}
+
+#container1 {
+    width: 99%;
+    position: relative;
+    top: 27px;
+    left: 0%;
+    border-radius: 32px;
+    height: 2000px;
+    background: linear-gradient(90deg, #79879d, #8ec9b6, #79879d);
+}
+
+#myTitle {
+    position: relative;
+    top: 3%;
+    left: -28%;
+    font-size: 104px;
+    font-family: Rebond Grotesque, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: 80px;
+    color: #000000;
+    animation: typing 2s forwards;
+    border-right: 2px solid #fff;
+    
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+        /* Adjust depending on the length of your text */
+    }
+}
+
+/* Cursor blinking effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: white;
+    }
+}
+
+.navbar {
+    background: linear-gradient(90deg, #000000, #000000, #000000);
+    position: relative;
+    top: 27px;
+    height: 82px;
+    width: 94%;
+    border-radius: 103px;
+    color: #ffffff;
+    left: 45px;
+}
+
+#nav1 {
+    position: relative;
+    left: 78%;
+    top: -3px;
+    transition: transform 0.1s ease-in-out, text-shadow 0.1s ease-in-out, color 0.1s ease-in-out;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+#nav2 {
+    position: relative;
+    left: 21%;
+    top: -4px;
+    transition: transform 0.1s ease-in-out, text-shadow 0.1s ease-in-out, color 0.1s ease-in-out;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#nav3 {
+    position: relative;
+    left: -4%;
+    top: -4px;
+    transition: transform 0.1s ease-in-out, text-shadow 0.1s ease-in-out, color 0.1s ease-in-out;
+    color: rgb(255, 255, 255);
+    font-weight: bold;}
+
+#nav1:hover {
+    transform: scale(1.1);
+    /* Increases size by 50% */
+    color: #f8f9fa;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1),
+        /* Core bright glow */
+        0 0 40px rgba(255, 255, 255, 0.8),
+        /* Larger outer glow */
+        0 0 60px rgba(255, 255, 255, 0.6),
+        /* More diffuse glow */
+        0 0 100px rgba(255, 255, 255, 0.4),
+        /* Even bigger diffuse glow */
+        0 0 200px rgba(255, 255, 255, 0.2);
+    /* Huge, far-reaching glow */
+}
+
+#nav2:hover {
+    transform: scale(1.1);
+    /* Increases size by 50% */
+    color: #f8f9fa;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1),
+        /* Core bright glow */
+        0 0 40px rgba(255, 255, 255, 0.8),
+        /* Larger outer glow */
+        0 0 60px rgba(255, 255, 255, 0.6),
+        /* More diffuse glow */
+        0 0 100px rgba(255, 255, 255, 0.4),
+        /* Even bigger diffuse glow */
+        0 0 200px rgba(255, 255, 255, 0.2);
+    /* Huge, far-reaching glow */
+}
+
+/* Hover effect: increase size and add glow */
+#nav3:hover {
+    transform: scale(1.1);
+    /* Increases size by 50% */
+    color: #f8f9fa;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1),
+        /* Core bright glow */
+        0 0 40px rgba(255, 255, 255, 0.8),
+        /* Larger outer glow */
+        0 0 60px rgba(255, 255, 255, 0.6),
+        /* More diffuse glow */
+        0 0 100px rgba(255, 255, 255, 0.4),
+        /* Even bigger diffuse glow */
+        0 0 200px rgba(255, 255, 255, 0.2);
+    /* Huge, far-reaching glow */
+}
+
+.lead {
+    position: relative;
+    top: 7%;
+    width: 38%;
+    text-align: justify;
+    left: 11%;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    line-height: 28px;
+    font-weight: bold;
+    animation: splashEffect 2s ease-out forwards;
+    opacity: 0;
+    color: #000000;
+    font-size: 25px;
+}
+@keyframes splashEffect {
+  0% {
+    opacity: 0;
+    transform: scale(0.5); /* Starts small */
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1); /* Expands briefly */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Returns to normal size */
+  }
+}
+#splashText::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    /* Start small */
+    /* Makes it circular */
+    transition: transform 0.7s ease-in-out;
+    /* Smooth animation */
+    z-index: -1;
+    /* Place it behind the text */
+}
+#splashText:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    /* Full splash on hover */
+}
+
+#text1 {
+    position: relative;
+    top: 5%;
+    width: 41%;
+    left: 11%;
+    text-align: justify;
+    letter-spacing: 16.1px;
+    line-height: 66px;
+    color: #600909;
+    font-weight: 350;
+}
+
+
+#Notify_Section {
+    background: rgb(255 255 255 / 80%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgb(96 94 145);
+    width: 73%;
+    height: 225px;
+    position: relative;
+    top: 14%;
+    left: 44%;
+    width: 52%;
+    background-color: #aec3db;
+}
+
+#Email_Updates{
+    position: relative;
+    top: 4%;
+    left: 0%;
+    height: 43%;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 94px;
+    color: #000000;
+    font-family: monospace;
+    font-size: 112%;
+}
+#Notify{
+    position: relative;
+    top: 10%;
+    left: 11%;
+    height: 23%;
+    width: 78%;
+    border-radius: 6px;
+    color: white;
+    font-size: 121%;
+    font-family: monospace;
+    background: #7c2a32;
+    transition: box-shadow -0.7s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#Notify:hover{
+    box-shadow: 0 0 20px rgb(40 42 44 / 70%), 0 0 30px rgb(46 48 50 / 50%), 0 0 40px rgb(70 75 80 / 30%) ;/* Glowing effect */
+    transform: scale(1.05);
+
+}
+#My_svg{
+    width: 10%;
+    position: relative;
+    left: -15%;
+    top: 21%;
+}
+#myImage1{
+    animation: float 3.3s ease-in-out infinite;
+    height: 340px;
+    transition: background-image 0.5s ease;
+    width: 432px;
+    position: relative;
+    left: 31%;
+    top: -685px;
+    border: 2px solid white;
+    border-radius: 11px;
+    box-shadow: 0 0 20px rgb(106 116 126 / 72%), 0 0 30px rgb(218 201 255 / 55%), 0 0 40px rgb(97 161 229 / 33%);}
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(35px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  #myImage2{
+    position: relative;
+    animation: float 3.3s ease-in-out infinite;
+    left: -38%;
+    top: -342px;
+    width: 25%;
+    height: 268px;
+    border: none;
+    border-radius: 11px;
+    box-shadow: 0 0 20px rgb(106 116 126 / 72%), 0 0 30px rgb(218 201 255 / 55%), 0 0 40px rgb(97 161 229 / 33%);
+  }
